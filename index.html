@@ -2,81 +2,76 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Pilar Strumia - Portafolio</title>
   <style>
     body {
-      font-family: 'Segoe Script', 'Brush Script MT', cursive;
-      background-color: #f5e9dc;
-      color: #4a3c31;
+      background-color: #f5eae0;
+      font-family: 'Times New Roman', Times, serif;
       margin: 0;
       padding: 0;
-    }
-    header {
-      background-color: #e4d3c0;
-      padding: 60px 20px;
       text-align: center;
+      color: #3a2c27;
     }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 30px 50px;
+    }
+
     header h1 {
       font-size: 3rem;
-      margin-bottom: 10px;
-    }
-    header p {
-      font-size: 1.4rem;
       margin: 0;
     }
-    .contenedor {
-      max-width: 1000px;
-      margin: 40px auto;
-      padding: 0 20px;
+
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     }
-    h2 {
-      font-size: 1.8rem;
-      margin-bottom: 15px;
-      border-bottom: 2px solid #c4aa94;
-      padding-bottom: 5px;
+
+    .contenido {
+      padding: 30px;
     }
+
     .boton {
       display: inline-block;
-      margin: 10px 10px 10px 0;
-      padding: 14px 28px;
-      background-color: #c9b299;
-      color: #fff;
+      background-color: #d4a373;
+      color: white;
+      padding: 15px 30px;
+      margin: 15px;
+      border-radius: 30px;
       text-decoration: none;
-      border-radius: 10px;
-      font-weight: bold;
-      transition: background-color 0.3s ease;
+      font-size: 1.1rem;
+      transition: background-color 0.3s;
     }
+
     .boton:hover {
-      background-color: #b59c80;
-    }
-    footer {
-      background-color: #e4d3c0;
-      text-align: center;
-      padding: 25px;
-      font-size: 1rem;
-      margin-top: 60px;
+      background-color: #b87c50;
     }
   </style>
 </head>
 <body>
+
   <header>
     <h1>Pilar Strumia</h1>
-    <p>Portafolio Profesional | Power BI & Análisis de Datos</p>
+    <img src="pilar.jpg" alt="Foto de Pilar Strumia" />
   </header>
 
-  <div class="contenedor">
-    <h2>Proyectos Destacados</h2>
-    <a href="#" target="_blank" class="boton">Dashboard 1</a>
-    <a href="#" target="_blank" class="boton">Dashboard 2</a>
-    <a href="#" target="_blank" class="boton">Dashboard 3</a>
+  <div class="contenido">
+    <h2>Portafolio de Power BI y Análisis de Datos</h2>
+    <p>Explorá mis proyectos más recientes en visualización y análisis de datos.</p>
 
-    <h2 style="margin-top: 50px;">Currículum</h2>
-    <a href="cv.pdf" download class="boton">Descargar CV</a>
+    <a href="#" class="boton">Dashboard 1</a>
+    <a href="#" class="boton">Dashboard 2</a>
+    <a href="#" class="boton">Dashboard 3</a>
+    <br><br>
+    <a href="cv.pdf" class="boton" target="_blank">Descargar CV</a>
   </div>
 
-  <footer>
-    © 2025 Pilar Strumia - Todos los derechos reservados
-  </footer>
 </body>
 </html>
+
